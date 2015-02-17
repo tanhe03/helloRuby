@@ -1,0 +1,158 @@
+;Codewright Project File (do not remove or modify this line)
+[Files]
+.\.gitignore
+.\GitHub helloRuby.bak
+.\GitHub helloRuby.pjt
+.\GitHub.bak
+.\GitHub.pjt
+.\index.bak
+.\index.html
+.\index2.html
+.\page1.bak
+.\page1.html
+.\README.md
+
+
+
+[Editor]
+FilterProjDeleteList 
+FilterProjAdd='Other Files','*.*',-1
+_RestoreSysFlags=0x430d7fd8, 0xfffffffc, 0
+VCSProject=''
+VCSProjectPath=''
+VCSProjectLocalPath=''
+ScrapSetCount=1
+ClipboardSetCount=1
+ClipboardEnableSepStr=1
+ClipboardSetSepStr='\r\n',0
+ClipboardEnableTermStr=1
+ClipboardSetTermStr='\r\n',0
+
+[Tools]
+ToolDeleteList 
+
+[Compiler]
+TagSetCmd='"${HOME}${WTAGS}" -oc -d -t"${TAGFILE}.tag" -p"${TAGFILE}.ptg"',0x8000060
+BrowseSetFile='C:\Program Files (x86)\Borland\codewright_new\tagfile.ptg'
+TagSetFile='C:\Program Files (x86)\Borland\codewright_new\tagfile.tag'
+CompilerAddCmdEx='Debug|$_cw_proj_hash_$','',1073741824,'',0,'${FTEE} nmake',176,'${FTEE} nmake',0,'${FTEE} nmake',176,'${FTEE} nmake',0,'',0,'',0,'_ErrorInfoDefault','','','proj.err','%x'
+CompilerAddResponse='Debug|$_cw_proj_hash_$',
+CompilerAddCmdEx='Release|$_cw_proj_hash_$','',1073741824,'',0,'${FTEE} nmake',176,'${FTEE} nmake',0,'${FTEE} nmake',176,'${FTEE} nmake',0,'',0,'',0,'_ErrorInfoDefault','','','proj.err','%x'
+CompilerAddResponse='Release|$_cw_proj_hash_$',
+CompilerNewExt=.htm
+CompilerNewExt=.v
+CompilerNewExt=Release|.java
+CompilerNewExt=Release|.asp
+CompilerNewExt=.awk
+CompilerNewExt=Debug|.awk
+CompilerNewExt=.bas
+CompilerNewExt=Release|.nrx
+CompilerNewExt=Debug|.rc
+CompilerNewExt=Debug|.rul
+CompilerNewExt=.mac
+CompilerNewExt=Release|.txt
+CompilerNewExt=.adb
+CompilerNewExt=Release|.bat
+CompilerNewExt=.cfml
+CompilerNewExt=.jsp
+CompilerNewExt=Release|.php
+CompilerNewExt=Debug|.php
+CompilerNewExt=Release|.tk
+CompilerNewExt=.c
+CompilerNewExt=.pl
+CompilerNewExt=.vhd
+CompilerNewExt=Release|.awk
+CompilerNewExt=Debug|.jav
+CompilerNewExt=Debug|.java
+CompilerNewExt=Release|.rc
+CompilerNewExt=Release|.css
+CompilerNewExt=Release|.adb
+CompilerNewExt=Release|.cfml
+CompilerNewExt=Release|.bas
+CompilerNewExt=Release|.xml
+CompilerNewExt=.pas
+CompilerNewExt=.h
+CompilerNewExt=Release|.tcl
+CompilerNewExt=.tk
+CompilerNewExt=Debug|.bas
+CompilerNewExt=Debug|.txt
+CompilerNewExt=Debug|.html
+CompilerNewExt=.rul
+CompilerNewExt=Debug|.tcl
+CompilerNewExt=Debug|.tk
+CompilerNewExt=Release|.htm
+CompilerNewExt=Release|.jav
+CompilerNewExt=Release|.cs
+CompilerNewExt=.asp
+CompilerNewExt=Release|.pas
+CompilerNewExt=Debug|.cob
+CompilerNewExt=Release|.pl
+CompilerNewExt=Debug|.pas
+CompilerNewExt=.cob
+CompilerNewExt=.js
+CompilerNewExt=Debug|.js
+CompilerNewExt=Debug|.nrx
+CompilerNewExt=Release|.v
+CompilerNewExt=Release|.ini
+CompilerNewExt=Release|.html
+CompilerNewExt=.php
+CompilerNewExt=.rc
+CompilerNewExt=Debug|.sqlj
+CompilerNewExt=.tcl
+CompilerNewExt=Debug|.css
+CompilerNewExt=Release|.js
+CompilerNewExt=Debug|.jsp
+CompilerNewExt=Release|.sqlj
+CompilerNewExt=Debug|.htm
+CompilerNewExt=.ini
+CompilerNewExt=.bat
+CompilerNewExt=.html
+CompilerNewExt=Release|.cob
+CompilerNewExt=Debug|.pl
+CompilerNewExt=Release|.vhd
+CompilerNewExt=Release|.jsp
+CompilerNewExt=Debug|.v
+CompilerNewExt=.cs
+CompilerNewExt=Debug|.cs
+CompilerNewExt=Debug|.bat
+CompilerNewExt=Debug|.vhd
+CompilerNewExt=.cpp
+CompilerNewExt=.*
+CompilerNewExt=Debug|.adb
+CompilerNewExt=Debug|.asp
+CompilerNewExt=Debug|.ini
+CompilerNewExt=.cxx
+CompilerNewExt=.css
+CompilerNewExt=.txt
+CompilerNewExt=.asm
+CompilerNewExt=.hpp
+CompilerNewExt=.nrx
+CompilerNewExt=.sqlj
+CompilerNewExt=Release|.rul
+CompilerNewExt=Debug|.cfml
+CompilerNewExt=.jav
+CompilerNewExt=.java
+CompilerNewExt=.xml
+CompilerNewExt=Debug|.xml
+CFGSetActive='Release'
+
+[VersionControl:PVCS]
+VCSSetCmd=VCS_CHECKIN_ID,'put -n -T@"%Q" -M@"%Q" "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKINLOCK_ID,'put -n -T@"%Q" -M@"%Q" -l "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKOUT_ID,'get -y "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKOUTLOCK_ID,'get -y -l "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKLOCK_ID,'vcs -y -l "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKUNLOCK_ID,'vcs -y -u "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKLABEL_ID,'vcs -y -v"${VCSLABEL}" "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKLOG_ID,'vlog "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKPROP_ID,'vlog -b "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKDIFF_ID,'vdiff -r "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKMENU_ID,'pvcsvmwn',0x8000000
+VCSSetCmd=VCS_ADD_ID,'vcs -i -t@"%Q" "%b%e"',0x8000040
+VCSSetCmd=VCS_REMOVE_ID,'del /f "%b%{??v|___}e"',0x8000040
+
+[Project]
+ConfigSetLinkDBFilename='C:\Program Files (x86)\Borland\codewright_new\cwright.ldb'
+ConfigSetMarkDBFilename='C:\Program Files (x86)\Borland\codewright_new\cwright.mrk'
+ConfigSetSymbolDBFilename='C:\Users\henry\Documents\GitHub\helloRuby\GitHub helloRuby.sbl'
+EditSetPath=''
